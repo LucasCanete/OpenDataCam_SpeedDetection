@@ -23,7 +23,7 @@ Install the dependencies: `$pip install -r requirements.txt`
 2. Drag and drop a test video to the graphic interface
 3. Draw two Screnlines on the graphic interface. The first screenline (light blue) will be the starting measuring point and the second screenline(light green) will be the end measuring point. Name the first line "1" and the second line "2". Keep enough distance between the lines. Example depicted in following image
 
-   <img src="images/example_2lines.png" alt="ODC" width="500" height="200">
+   <img src="images/example_2lines.png" alt="ODC" width="500" height="300">
 
 
 4. In the same directory of the files run the project in the terminal:
@@ -53,14 +53,14 @@ This will occur every 60 seconds just as we have defined in the upload rate abov
     The data has been uploaded to a section called "counterObservations".
     Notice that the information has been uploaded with 60 seconds interval.
 
-   <img src="images/screenshot_db_odc.png" alt="DB" width="500" height="200">
+   <img src="images/screenshot_db_odc.png" alt="DB" width="500" height="400">
 
 ## Usage for multiple speed measurements
 If you wish to have more than one speed measurement on a recording, for example on two highway lanes follow the instructions.
 
 1. Add two more screenlines to the recording. Name the starting screenline (white) "3" and the ending line (dark green) "4". Depicted in the following picture:
 
-   <img src="images/example_4lines.png" alt="ODC" width="500" height="200">
+   <img src="images/example_4lines.png" alt="ODC" width="500" height="300">
 
 2. When starting the script introduce the distances between screenlines 1 and 2 (first argument) and between screenlines 3 and 4 (second argument)
 
@@ -70,5 +70,5 @@ If you wish to have more than one speed measurement on a recording, for example 
 
 3. When the script has started the recording, a small information window will appear in the terminal screen. make sure that the number of distances entered as parameters makes sense with the number of screenlines present in the recording. For 4 screenlines present in the recording 2 distances must be given. 
 
-   <img src="images/info_start.png" alt="ODC" width="500" height="200">
+   <img src="images/info_start.png" alt="ODC" width="500" height="250">
 
