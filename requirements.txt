@@ -1,0 +1,6 @@
+art==6.3
+keyboard==0.13.5
+prettytable==2.5.0
+pymongo==4.1.1
+requests==2.18.4
+rich==13.9.4
