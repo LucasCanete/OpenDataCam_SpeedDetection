@@ -1,4 +1,4 @@
-# VE_SpeedDetector
+# OpenDataCam_SpeedDetection
 
 Speed Detection for OpenDataCam
 
